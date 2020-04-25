@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("lilys.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+img:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1);
+    transition:all 0.1s ease-in-out;
+}
+.header:hover{
+    font-size: 55px;
+    transition:all 2s cubic-bezier(.21,1.27,.68,.05);
+}
+.z{
+    size:icon-4x;
+}
+
+
+/* https://youtu.be/C1B1Fx3XKOg */
