@@ -1,0 +1,17 @@
+.header:hover{
+    font-size: 55px;
+    transition:all 2s cubic-bezier(.21,1.27,.68,.05);
+}
+.re{
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.stars:hover{
+    color:rgb(243, 243, 53);
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+i{
+    color:rgb(206, 206, 201);
+}
+i:hover{
+    transform:scale(1.4);
+}

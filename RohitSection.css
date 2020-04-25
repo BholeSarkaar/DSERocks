@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("rohit1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+img:hover{
+    filter:grayscale(70%);
+    transform:scale(1.1);
+    transition:all 0.1s ease-in-out;
+}
